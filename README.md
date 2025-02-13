@@ -20,6 +20,9 @@ yt-dlp is a feature-rich command-line audio/video downloader with support for [t
 
 <!-- MANPAGE: MOVE "USAGE AND OPTIONS" SECTION HERE -->
 
+Ex-sample : Download whole playlist rename as index and download auto subtitle remux to mp4
+yt-dlp  --write-automatic-subs --sub-format "vtt" --sub-langs "th" --remux-video mp4 --yes-playlist "URL playlist" -o %(playlist)s/%(playlist_index)s-%(title)s.%(ext)s
+
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
 * [INSTALLATION](#installation)
     * [Detailed instructions](https://github.com/yt-dlp/yt-dlp/wiki/Installation)
